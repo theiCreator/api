@@ -17,6 +17,6 @@ function validateCreditCard(cardNumber) {
   }
 }
 // Usage:
-const cardNumber = "5061081106797727793"; // Replace with card number for validation
+const cardNumber = "0123456789"; // Replace with card number for validation
 const typeOfCard = validateCreditCard(cardNumber);
 console.log(`This card is: ${typeOfCard}`);
