@@ -13,7 +13,7 @@ function validateCreditCard(cardNumber) {
   } else if (verve.test(cardNumber)) {
       return "A Verve Card";
   } else{
-      return "Not Found";
+      return "Card Not Found";
   }
 }
 // Usage:
